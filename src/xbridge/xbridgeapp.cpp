@@ -25,6 +25,7 @@
 #include <xbridge/xbridgewalletconnectorbtg.h>
 #include <xbridge/xbridgewalletconnectorstealth.h>
 #include <xbridge/xbridgewalletconnectorpart.h>
+#include <xbridge/xbridgewalletconnectoreth.h>
 #include <xbridge/xbridgepacket.h>
 #include <xbridge/xuiconnector.h>
 #include <xrouter/xrouterapp.h>

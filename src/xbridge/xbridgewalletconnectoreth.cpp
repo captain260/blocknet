@@ -1,10 +1,11 @@
-/ Copyright (c) 2017-2020 The Blocknet developers
+// Copyright (c) 2017-2020 The Blocknet developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include <xbridge/xbridgewalletconnectoreth.h>
 
 #include <xbridge/util/logger.h>
+#include <util/strencodings.h>
 
 //*****************************************************************************
 //*****************************************************************************

@@ -1040,9 +1040,10 @@ void App::updateActiveWallets()
         }
 
         xbridge::WalletConnectorPtr conn;
-        if (wp.method == "ETH" || wp.method == "ETHER" || wp.method == "ETHEREUM") {
-            LOG() << "ETH connector is not supported on XBridge at this time";
-            continue;
+               if (wp.method == "ETH" || wp.method == "ETHER" || wp.method == "ETHEREUM")
+        {
+            conn.reset(new EthWalletConnector);
+            *conn = wp;
         }
         else if (wp.method == "BTC" || wp.method == "SYS")
         {
